@@ -17,7 +17,6 @@ function fetchDatosClima(ciudad) {
 }
 
 function mostrarDatosclima(data) {
-  console.log(data);
 const divdatoClima = document.getElementById('datosClima');
 divdatoClima.innerHTML = ''
 
